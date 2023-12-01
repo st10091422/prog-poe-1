@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ST10091422_PROG6212_POE.Models.Module>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    h1 {
+        color: #fff;
+    }
+
+    h2 {
+        color: #fff;
+    }
+</style>
+
+<h1>Semester</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">New Semester</a>
+</p>
+<div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 2em; padding-top: 1em;">
+    <div>
+        <h2>Number Of Weeks: @ViewData["NumberOfWeeks"]</h2>
+    </div>
+    <div>
+        <h2>Start Date: @ViewData["StartDate"]</h2>
+    </div>
+</div>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfCredits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassHoursPerWeek)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfSelfStudyHoursPerWeek)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.ToList().Count == 0)
+        {
+            <tr>
+                <td class="center-text" colspan="10">No data to display</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Code)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfCredits)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClassHoursPerWeek)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfSelfStudyHoursPerWeek)
+                    </td>
+                    <td>
+                        <a class="btn btn-outline-success" asp-controller="Module" asp-action="Edit" asp-route-id="@item.ModuleId">Edit</a> |
+                        <a class="btn btn-outline-warning" asp-controller="Module" asp-action="Details" asp-route-id="@item.ModuleId">Details</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<div style="display:flex; justify-content: center; align-items:center;">
+    <a class="btn btn-outline-primary align-content-lg-center" asp-controller="Module" asp-action="Create">Add Module</a>
+</div>

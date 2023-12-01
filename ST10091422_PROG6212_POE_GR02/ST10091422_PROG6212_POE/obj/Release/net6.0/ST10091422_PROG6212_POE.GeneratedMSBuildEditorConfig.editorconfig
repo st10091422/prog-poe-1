@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ST10091422_PROG6212_POE
+build_property.RootNamespace = ST10091422_PROG6212_POE
+build_property.ProjectDir = C:\Users\Robert\Source\Repos\st10091422\prog-poe-1\ST10091422_PROG6212_POE_GR02\ST10091422_PROG6212_POE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Robert\Source\Repos\st10091422\prog-poe-1\ST10091422_PROG6212_POE_GR02\ST10091422_PROG6212_POE
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Module/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Module/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Module/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Module/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Module/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Semester/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Semester/Graph.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcR3JhcGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Semester/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtZXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Robert/Source/Repos/st10091422/prog-poe-1/ST10091422_PROG6212_POE_GR02/ST10091422_PROG6212_POE/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6rqn1tsu40

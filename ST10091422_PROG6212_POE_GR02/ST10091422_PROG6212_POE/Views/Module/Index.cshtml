@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ST10091422_PROG6212_POE.Models.Module>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    h1{
+        padding: 1em 0em;
+        color: #fff;
+    }
+</style>
+
+<h1>Self Study Data</h1>
+
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfSelfStudyHoursPerWeek)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RemainingHours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CurrentDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfSelfStudyHoursPerWeek)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RemainingHours)
+            </td>
+            <td>
+               @Convert.ToString(string.Format("{0:dd/MM/yyyy}",  item.CurrentDate))
+            </td>
+            <td>
+                <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.ModuleId">Edit</a> |
+                <a class="btn btn-outline-warning" asp-action="Details" asp-route-id="@item.ModuleId">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+﻿@model ST10091422_PROG6212_POE.Models.Module
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .glass-bg {
+        background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)); /* Adjust the alpha (4th value) for transparency */
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 7%; /* Adjust the margin for spacing from the top */
+    }
+</style>
+
+
+<div class="row justify-content-center">
+    <div class="col-md-4 glass-bg">
+        <div style="display:flex; align-items:center; justify-content:center">
+            <h1 style="color:#fff; padding: 1em 0em">Create Module</h1>
+        </div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Code" class="control-label" style="color: #fff"></label>
+                <input asp-for="Code" class="form-control" placeholder="Code"/>
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" style="color: #fff"></label>
+                <input asp-for="Name" class="form-control" placeholder="Name"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfCredits" class="control-label" style="color: #fff"></label>
+                <input asp-for="NumberOfCredits" class="form-control" placeholder="Number Of Credits" />
+                <span asp-validation-for="NumberOfCredits" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClassHoursPerWeek" class="control-label" style="color: #fff"></label>
+                <input asp-for="ClassHoursPerWeek" class="form-control" placeholder="Class Hours Per Week" />
+                <span asp-validation-for="ClassHoursPerWeek" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group" style="display:flex; align-items:center; justify-content:space-evenly;">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-controller="Semester" asp-action="Index" class="btn btn-warning">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

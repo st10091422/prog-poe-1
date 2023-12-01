@@ -1,0 +1,55 @@
+﻿@model ST10091422_PROG6212_POE.Models.Semester
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .glass-bg {
+        background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)); /* Adjust the alpha (4th value) for transparency */
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 50px; /* Adjust the margin for spacing from the top */
+    }
+</style>
+
+
+
+<hr />
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-4 glass-bg">
+
+        <div style="display:flex; align-items:center; justify-content:center">
+            <h1 style="color:#fff; padding: 1em 0em">Create Semester</h1>
+        </div>
+        
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NumberOfWeeks" class="control-label" style="color: #fff"></label>
+                <input asp-for="NumberOfWeeks" class="form-control" />
+                <span asp-validation-for="NumberOfWeeks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label" style="color: #fff"></label>
+                <input asp-for="StartDate" class="form-control" type="date"/>
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div style="display:flex; align-items:center; justify-content:center">
+                @if (ViewData["message"] != null)
+                {
+                    <p style="color:red;">@ViewData["message"]</p>
+                }
+            </div>
+            
+            <div class="form-group" style="display:flex; align-items:center; justify-content:space-evenly;">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-warning">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

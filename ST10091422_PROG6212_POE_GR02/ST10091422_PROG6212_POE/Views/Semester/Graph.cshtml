@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ST10091422_PROG6212_POE.Models.Module>
+
+@{
+    ViewData["Title"] = "Graph";
+}
+<style>
+    .canvas-container {
+        background: #fff;
+        color: #fff;
+    }
+
+    #yChart {
+        background: #fff;
+        color: #fff;
+    }
+    h1{
+        color: #fff;
+    }
+</style>
+<h1>Semester Graph</h1>
+
+<div class="canvas-container">
+    <canvas id="myChart"></canvas>
+    @section scripts {
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            var labels = @Html.Raw(Json.Serialize(Model.Select(m => m.Name).ToArray()));
+            var data = @Html.Raw(Json.Serialize(Model.Select(m => m.NumberOfHours).ToArray()));
+            var classHoursData = @Html.Raw(Json.Serialize(Model.Select(m => m.NumberOfSelfStudyHoursPerWeek).ToArray()));
+
+            var ctx = document.getElementById('myChart').getContext('2d');
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Number Of Hours',
+                        data: data,
+                        backgroundColor: 'rgba(108, 148, 164, 0.5)',
+                        borderColor: 'rgba(108, 148, 164, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Self Study Hours per Week',
+                        data: classHoursData,
+                        backgroundColor: 'rgba(208,169,179, 0.7)',
+                        borderColor: 'rgba(208,169,179, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    }
+</div>  
